@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>纺团</title>
+		<!--我的样式-->
+		<link rel="stylesheet" href="css/index-style.css" />
+		<!--bootstrap样式表-->
+		<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css" />	
+		<!--门户购物车-->
+		<link rel="stylesheet" href="css/shop-car.css" />	
+		<!--banner的样式-->
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<!--animate-->
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<!--fileinput css-->
+		<link rel="stylesheet" href="css/fileinput.css" />	
+		<!--日历-->
+		<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
+		<!--select优化插件-->
+		<link rel="stylesheet" href="css/bootstrap-select.css" />
+		<!--字体图标-->
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<!--layer弹出插件-->
+		<link rel="stylesheet" href="layer/skin/layer.css" />
+		<!--滚动条样式-->
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+	</head>
+	<body class="front-body">
+		<div class="front-fixed">
+			<div class="head-page col-lg-12">
+				<div class="container">
+				<div class="col-lg-4 pull-left head-page-left">
+				   <span>您好，<b>xty999940</b></span>
+				   <a href="">退出</a>
+				</div>
+				<div class="col-lg-8 pull-right head-page-right text-right">
+					 <a href="index-page.html">我的纺团网</a>			 
+				   <i>|</i>
+				   <a href="account-help-pingtai.html">关于我们</a>
+				</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<!--导航-->
+			<div class="nav">
+				<div class="nav-all">
+				<div class="front-nav-box pull-left">
+					<img src="images/logo2.png">
+				</div>
+				<ul class="pull-right nav-right front-nav-right">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="supermarket.html">现货超市</a></li>
+					<li><a href="">商铺</a></li>
+					<li><a href="logistics-service.html">物流服务</a></li>
+					<li><a href="xianzhi-shebei.html">闲置设备</a></li>
+					<li><a href="xianzhi-changfang.html">闲置厂房</a></li>
+					<li><a href="">在线预订</a></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--身体部分-->
+		<div class="front-box-all">
+			<div class="front-box-left">				
+				<ul id="content-1" class="front-nav-child">
+					<h1 class="front-nav-title">账户管理</h1>
+				    
+			        <li>
+						<a class="first-nav" >资金账户 <span class="iconaaaa ml10 "><i class="iconfont icon-xiajiantou"></i></span></a>
+						<div class="child-div ">
+							<a href="account-zijin.html">资金管理</a>
+							<a  class="front-active" href="account-shoukuan.html">收款流水</a>
+							<a href="account-dingjin.html">订金管理</a>
+							<a href="account-liushui.html">账户流水管理</a>
+						</div>
+					</li>
+					<li>
+						<a  href="account-guanli.html">登录密码设置</a>
+					</li>
+					<li>
+						<a  href="account-tel.html">绑定手机修改</a>
+					</li>
+					<li>
+						<a   href="account-xinxi.html">会员信息管理</a>
+					</li>
+					<li>
+						<a  href="account-caozuoyuan.html">操作员信息管理</a>
+					</li>
+					<li>
+						<a  href="account-caozuoquanxuan.html">操作员权限管理</a>
+					</li>
+					<!--<li>
+						<a href="">业务员提成</a>
+					</li>-->
+					<li>
+						<a href="account-shouhuo.html">收货地址维护</a>
+					</li>
+					<li>
+						<a href="account-tihuo.html">提货信息维护</a>
+					</li>
+				</ul>
+			</div>
+			<div class="front-box-right">
+				<div class="bread-page">
+					<ul>
+						您现在所在位置：
+						<a href="">账户管理</a>&gt;<a href="">收款流水</a>
+					</ul>
+				</div>
+			    
+			    <div class="front-right-box-1">
+			    	<h1 class="front-box-title">收款流水</h1>
+			     	<div class="daishenghe-box">
+			     											
+					<div class="search-box mb20 mt20">
+			     			<div class="data-box pull-left">
+			     				<label>时间范围：</label>
+			     				<div class="data-time">
+			     					<input  type="text" value="请选择时间" class="form_datetime form-control">
+			     				</div>
+			     				<i>-</i>
+			     				<div class="data-time">
+			     				<input  type="text" value="请选择时间" class="form_datetime form-control">
+			     				</div>
+			     			</div>
+			     			<div class="data-box pull-left ml10">
+			     				<label>业务单号：</label>
+			     				<div class="data-time">
+			     					<input  type="text"  class="form-control">
+			     				</div>			     				
+			     			</div>
+			     				<div class="data-box1 pull-left ml10">
+			     				<label>摘要类型：</label>
+			     				<div class="data-time1">
+			     					<input  type="text"  class="form-control">
+			     				</div>			     				
+			     			</div>
+			     			<div class="data-box pull-left ml10">
+			     				<label>相关会员：</label>
+			     				<div class="data-time1">
+			     					<input  type="text"  class="form-control">
+			     				</div>			     				
+			     			</div>
+			     			<div class="data-box pull-left ml10">
+			     				<button class="btn soushuo">搜索</button>     				
+			     			</div>			     			
+			     		</div>
+						 
+						 <table class="ziyuan-table ">
+						 	<tr class="tr1">
+						 		<td>业务单号</td>
+						 		<td>相关会员</td>
+						 		<td>时间</td>
+						 		<td>收/支</td>						 	
+						 		<td>摘要</td>	
+						 		<td>金额(元)</td>							 	
+						 	</tr>
+						 	<tr>
+						 		<td>123123123123</td>		
+						 		<td>123123123</td>	
+						 		<td>2015-05-05</td>
+						 		<td>收入</td>						 
+						 		<td>保证金</td>
+						 		<td>1000.00</td>
+						 	</tr>
+						 </table>
+						 
+						 <nav class="page-bar mt20">
+						  <ul class="pagination">
+						     <nav>
+						     <i>一共10条数据 共10页</i>
+							  <ul class="pagination">							  	
+							    <li>
+							      <a href="#" aria-label="Previous">
+							        <span aria-hidden="t`1rue">&laquo;</span>
+							      </a>
+							    </li>
+							    <li class="active-page"><a href="#">1</a></li>
+							    <li><a href="#">2</a></li>
+							    <li><a href="#">3</a></li>
+							    <li><a href="#">4</a></li>
+							    <li><a href="#">5</a></li>
+							    <li>
+							      <a href="#" aria-label="Next">
+							        <span aria-hidden="true">&raquo;</span>
+							      </a>
+							    </li>
+							  </ul>
+							  <i>每页显示
+							  	<select>
+							  		<option>1</option>
+							  		<option>1</option>
+							  		<option>1</option>
+							  		<option>1</option>
+							  	</select>
+							  </i>
+							   <i>转到
+							  	<select>
+							  		<option>1</option>
+							  		<option>1</option>
+							  		<option>1</option>
+							  		<option>1</option>
+							  	</select>
+							  </i>
+							</nav>
+						  </ul>
+						</nav>
+						<div class="clearfix"></div>
+			     	</div>
+		        </div>
+		
+		<!--弹出修改窗-->
+		  <div class="quanxuan-box" style="display: none;">
+		  	 <form class="form-horizontal">
+								  <div class="form-group">
+								    <label  class="col-sm-3 control-label">登录名</label>
+								    <div class="col-sm-8">
+								      <input type="text" class="form-control"  placeholder="请输入旧密码">
+								      <label class="col-sm-8 mt5 error-word error-none" >密码输入错误</label>
+								    </div>							    
+								  </div>
+								    <div class="form-group">
+								    <label  class="col-sm-3 control-label">姓名</label>
+								    <div class="col-sm-8">
+								      <input type="text" class="form-control"  placeholder="请输入新密码">
+								    </div>
+								  </div>
+								    <div class="form-group">
+								    <label  class="col-sm-3 control-label">手机号码</label>
+								    <div class="col-sm-8">
+								      <input type="text" class="form-control"  placeholder="再次输入新密码">
+								    </div>
+								  </div>	
+								  <div class="form-group">
+								    <label  class="col-sm-3 control-label">固定电话</label>
+								    <div class="col-sm-8">
+								      <input type="text" class="form-control"  placeholder="再次输入新密码">
+								    </div>
+								  </div>	
+								  <div class="form-group">
+								    <label  class="col-sm-3 control-label">E-mail</label>
+								    <div class="col-sm-8">
+								      <input type="text" class="form-control"  placeholder="再次输入新密码">
+								    </div>
+								  </div>	
+								  
+								    <div class="border-box"></div>
+								  <div class="btn-box text-center mt20">
+						     		<a  class="btn-a" href="#">确定</a>
+						     	  </div>
+							</form>
+		  </div>
+		
+		<!--增加人员窗-->
+		  <div class="add-control-box" style="display: none;">
+		  	 <form class="form-horizontal">
+								  <div class="form-group">
+								    <label  class="col-sm-3 control-label">登录名</label>
+								    <div class="col-sm-8">
+								      <input type="text" class="form-control"  placeholder="请输入旧密码">
+								      <label class="col-sm-5 mt5 error-word error-none" >密码输入错误</label>
+								    </div>							    
+								  </div>
+								    <div class="form-group">
+								    <label  class="col-sm-3 control-label">姓名</label>
+								    <div class="col-sm-8">
+								      <input type="text" class="form-control"  placeholder="请输入新密码">
+								    </div>
+								  </div>
+								    <div class="form-group">
+								    <label  class="col-sm-3 control-label">密码</label>
+								    <div class="col-sm-8">
+								      <input type="password" class="form-control"  placeholder="再次输入新密码">
+								    </div>
+								  </div>	
+								    <div class="form-group">
+								    <label  class="col-sm-3 control-label">手机号码</label>
+								    <div class="col-sm-8">
+								      <input type="text" class="form-control"  placeholder="再次输入新密码">
+								    </div>
+								  </div>	
+								  <div class="form-group">
+								    <label  class="col-sm-3 control-label">固定电话</label>
+								    <div class="col-sm-8">
+								      <input type="text" class="form-control"  placeholder="再次输入新密码">
+								    </div>
+								  </div>	
+								  <div class="form-group">
+								    <label  class="col-sm-3 control-label">E-mail</label>
+								    <div class="col-sm-8">
+								      <input type="text" class="form-control"  placeholder="再次输入新密码">
+								    </div>
+								  </div>	
+								  
+								    <div class="border-box"></div>
+								  <div class="btn-box text-center mt20">
+						     		<a  class="btn-a" href="#">确定</a>
+						     	  </div>
+							</form>
+		                </div>
+		                
+		     <!--权限选择-->          
+		     <div class="add-quanxian-box" style="display: none;">
+		 <!-- Nav tabs -->
+			  <ul class="nav nav-tabs" role="tablist">
+			    <li role="presentation" class="active"><a href="#box-1" role="tab" data-toggle="tab">买家中心</a></li>
+			    <li role="presentation"><a href="#box-2"  role="tab" data-toggle="tab">账户中心</a></li>			 
+			  </ul>
+			
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+			    <div role="tabpanel" class="tab-pane active" id="box-1">
+			    	<ul class="quanxian-ul">
+			    		<li class="first-li"><input type="checkbox">我的交易</li>
+			    		<li><input type="checkbox">我的购物车</li>
+			    		<li><input type="checkbox">我的合同</li>
+			    		<li><input type="checkbox">我的提单</li>
+			    		<li><input type="checkbox">货款支付</li>
+			    		<li><input type="checkbox">开票查询</li>
+			    		<li><input type="checkbox">求购信息</li>
+			    	</ul>
+			    </div>
+			    <div role="tabpanel" class="tab-pane" id="box-2">
+			    	<ul class="quanxian-ul">
+			    		<li class="first-li"><input type="checkbox">我的账户</li>
+			    		<li><input type="checkbox">我的购物车</li>
+			    		<li><input type="checkbox">我的合同</li>
+			    		<li><input type="checkbox">我的提单</li>
+			    		<li><input type="checkbox">货款支付</li>
+			    		<li><input type="checkbox">开票查询</li>
+			    		<li><input type="checkbox">求购信息</li>
+			    	</ul>
+			    </div>			
+			  </div>
+            
+               <div class="border-box"></div>
+                 <div class="btn-box text-center mt20">
+						<a  class="btn-a" href="#">确定</a>
+				  </div>
+		     </div>	
+	</body>
+	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	<!--bootstrapJS-->
+	<script type="text/javascript" src="bootstrap-3.3.5-dist/js/bootstrap.min.js" ></script>
+	<!--首页的JS-->
+	<script type="text/javascript" src="js/index-js.js" ></script>
+	<!--购物车的js-->
+	<script type="text/javascript" src="js/quick_links.js" ></script>
+	<!--购物车的js-->
+	<script type="text/javascript" src="js/parabola.js" ></script>
+	<!--购物车的js-->
+	<script type="text/javascript" src="js/shop-car-common.js" ></script>
+	<!--banner的js-->
+	<script type="text/javascript" src="js/swiper.jquery.min.js" ></script>
+	<!--页面滚动出现的js-->
+	<script type="text/javascript" src="js/wow.min.js" ></script>
+	<!--动态滚动-->
+	<script type="text/javascript" src="js/dongtai-scroll.js" ></script>
+	<!--file input-->
+	<script type="text/javascript" src="js/fileinput.js" ></script>
+	<script type="text/javascript" src="js/fileinput_locale_zh.min.js" ></script>
+	<!--日历-->
+	<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+	<!--select优化插件-->
+	<script type="text/javascript" src="js/bootstrap-select.js"></script>
+	<!--layer弹出插件-->
+	<script type="text/javascript" src="layer/layer.js" ></script>
+	<!--滚动条美化-->
+	<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script>
+	   $(".form-group input").click(function(){
+			$(".error-word").toggleClass("error-none");
+			$(".form-group").toggleClass("has-error")
+		})
+	
+		function closeBtn(){
+			layer.confirm('你确定关闭会员么？', {
+			  btn: ['确定','取消'] //按钮
+			}, function(){
+			  layer.msg('操作成功', {icon: 1,time: 800,});
+			}, function(){
+			     layer.closeAll()
+			 });
+		}
+		
+		function xiugai(){
+			layer.open({
+		  type: 1,
+		  title:"修改",
+		  area:['480px','430px'],
+		  zIndex:'1',
+		  content: $('.quanxuan-box') //这里content是一个DOM
+		});
+		}
+		
+		function addcontrol(){
+		 layer.open({
+		  type: 1,
+		  title:"增加操作员",
+		  area:['500px','500px'],
+		  zIndex:'1',
+		  content: $('.add-control-box') //这里content是一个DOM
+		});
+		}
+		
+		function addquanxian(){
+		 layer.open({
+		  type: 1,
+		  title:"权限设置",
+		  area:['500px','400px'],
+		  zIndex:'1',
+		  content: $('.add-quanxian-box') //这里content是一个DOM
+		});
+		}
+	</script>
+</html>

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>纺团</title>
+		<!--我的样式-->
+		<link rel="stylesheet" href="css/index-style.css" />
+		<!--bootstrap样式表-->
+		<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css" />
+		<!--门户购物车-->
+		<link rel="stylesheet" href="css/shop-car.css" />
+		<!--banner的样式-->
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<!--animate-->
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<style>
+			.col-sm-12,
+			.col-sm-3,
+			.col-sm-2 {
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="head-page col-lg-12">
+			<div class="container">
+				<div class="col-lg-4 pull-left head-page-left">
+					<a href="login.html">登录</a>
+					<i>|</i>
+					<a href="reg.html">注册</a>
+					<span>欢迎来到纺团网</span>
+				</div>
+				<div class="col-lg-8 pull-right head-page-right text-right">
+					<a href="front-page/index-page.html">我的纺团网</a>
+					<i>|</i>
+					<a href="account-help-pingtai.html">关于我们</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="head-box col-lg-12">
+				<div class="head-box-left col-lg-4 margin-left-15">
+					<img src="images/logo.jpg">
+				</div>
+				<div class="head-box-right col-lg-8 ">
+					<div class="search-box">
+						<div class="search-box-change">
+							<i class="search-active">现货</i><i>求购</i>
+						</div>
+						<div class="search-input-box col-lg-12 margin-left-15 margin-right-15">
+							<div class="col-lg-12  margin-left-15">
+								<input class="search-input" type="text" placeholder="请输入关键词..." />
+								<button class="search-btn">搜索</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--导航-->
+		<div class="nav mt20">
+			<div class="nav-all">
+				<div class="nav-box pull-left hover">
+					全部分类
+					<i class="nav-arrow"></i>
+
+					<div class="banner-on-left" style="display: none;">
+						<ul class="banner-on-left-list">
+						<li>
+							<div class="banner-on-left-list-each">
+								<a href="supermarket.html">
+									<div class="clearfix" style="font-size: 16px;">
+										<span class="pull-left" style="font-weight: bold;">天然纤维</span>
+										<span class="pull-right">></span>
+									</div>
+									<div class="col-xs-12 clearfix" style="padding: 0px;">
+									 	<div class="col-sm-4" style="padding: 0px;">棉</div>
+									 	<div class="col-sm-4" style="padding: 0px;">麻</div>
+									 	<div class="col-sm-4" style="padding: 0px;">丝</div>
+									</div>
+								</a>
+								<div class="clearfix"></div>
+								<div class="list-details">
+									<ul class="list-details-details">
+										<li><a href="supermarket.html">棉</a></li>
+										<li><a href="supermarket.html">&nbsp;&nbsp;|&nbsp;&nbsp;麻</a></li>
+										<li><a href="supermarket.html">&nbsp;&nbsp;|&nbsp;&nbsp;丝</a></li>
+										<li><a href="supermarket.html">&nbsp;&nbsp;|&nbsp;&nbsp;毛</a></li>
+										<div class="clearfix"></div>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-on-left-list-each">
+								<a href="supermarket.html">
+									<div class="clearfix" style="font-size: 16px;">
+										<span class="pull-left" style="font-weight: bold;">化学再生纤维</span>
+										<span class="pull-right">></span>
+									</div>
+									<div class="col-xs-12 clearfix" style="padding: 0px;">
+									 	<div class="col-sm-4" style="padding: 0px;">粘胶</div>
+									 	<div class="col-sm-4" style="padding: 0px;">天丝</div>
+									 	<div class="col-sm-4" style="padding: 0px;">莫代尔</div>
+									</div>
+								</a>
+								<div class="clearfix"></div>
+								<div class="list-details">
+									<ul class="list-details-details">
+										<li><a href="supermarket.html">粘胶</a></li>
+										<li><a href="supermarket.html">&nbsp;&nbsp;|&nbsp;&nbsp;天丝</a></li>
+										<li><a href="supermarket.html">&nbsp;&nbsp;|&nbsp;&nbsp;莫代尔</a></li>
+										<div class="clearfix"></div>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-on-left-list-each">
+								<a href="supermarket.html">
+									<div class="clearfix" style="font-size: 16px;">
+										<span class="pull-left" style="font-weight: bold;">化学合成纤维</span>
+										<span class="pull-right">></span>
+									</div>
+									<div class="col-xs-12 clearfix" style="padding: 0px;">
+									 	<div class="col-sm-4" style="padding: 0px;">涤纶</div>
+									 	<div class="col-sm-4" style="padding: 0px;">锦纶</div>
+									 	<div class="col-sm-4" style="padding: 0px;">腈纶</div>
+									</div>
+								</a>
+								<div class="clearfix"></div>
+								<div class="list-details">
+									<ul class="list-details-details">
+										<li><a href="supermarket.html">涤纶</a></li>
+										<li><a href="supermarket.html">&nbsp;&nbsp;|&nbsp;&nbsp;锦纶</a></li>
+										<li><a href="supermarket.html">&nbsp;&nbsp;|&nbsp;&nbsp;腈纶</a></li>
+										<li><a href="supermarket.html">&nbsp;&nbsp;|&nbsp;&nbsp;氨纶</a></li>
+										<div class="clearfix"></div>
+									</ul>
+								</div>
+							</div>
+						</li>												
+					</ul>
+					</div>
+				</div>
+				<ul class="pull-right nav-right">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li class="active_16">
+						<a href="supermarket.html">现货超市</a>
+					</li>
+					<li>
+						<a href="shops.html">商铺</a>
+					</li>
+					<li>
+						<a href="logistics-service.html">物流服务</a>
+					</li>
+					<li>
+						<a href="xianzhi-shebei.html">闲置设备</a>
+					</li>
+					<li>
+						<a href="xianzhi-changfang.html">闲置厂房</a>
+					</li>
+					<li>
+						<a href="">在线预订</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="ybh_detail_all">
+			<div class="ybh_detail_box">
+				<div class="ybh_word_top">
+					<div class="ybh_img_list pull-left">
+						<div class="tb-booth tb-pic tb-s310">
+							<a href="#"><img src="images/444.jpg" rel="images/444.jpg" class="jqzoom" /></a>
+						</div>
+						<div class="box">
+							<ul class="tb-thumb" id="thumblist">
+								<li class="tb-selected">
+									<div class="tb-pic tb-s40">
+										<a href="#"><img src="images/huaqian-big.png" mid="images/huaqian-big.png" big="images/huaqian-big.png"></a>
+									</div>
+								</li>
+								<li>
+									<div class="tb-pic tb-s40">
+										<a href="#"><img src="images/huaqian-big.png" mid="images/huaqian-big.png" big="images/huaqian-big.png"></a>
+									</div>
+								</li>
+								<li>
+									<div class="tb-pic tb-s40">
+										<a href="#"><img src="images/444.jpg" mid="images/444.jpg" big="images/444.jpg"></a>
+									</div>
+								</li>
+								<li>
+									<div class="tb-pic tb-s40">
+										<a href="#"><img src="images/huaqian-big.png" mid="images/huaqian-big.png" big="images/huaqian-big.png"></a>
+									</div>
+								</li>
+								<li>
+									<div class="tb-pic tb-s40">
+										<a href="#"><img src="images/huaqian-big.png" mid="images/huaqian-big.png" big="images/huaqian-big.png"></a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="ybh_img_right pull-right">
+						<h3>涤纶 	FDY超有光 36D/60F</h3>
+						<div class="ybh_span_box">
+							<span class="ybh_detail_span">
+								<label>价格：</label>
+								<b>2000</b>元
+							</span>
+						</div>
+						<div class="ybh_span_bor">
+							<div class="magb">
+								类型：涤纶
+							</div>
+							<div class="red-bor">
+								<b class="k_PanelCloser" onclick="closebor()">x</b>
+								<div class="magb clearfix">
+									<div class="pull-left" style="line-height: 30px;">规格：&nbsp;</div>
+									<div class="pull-left">
+										<ul class="tm-clear">
+											<li class="tm-li">
+												<a href="javascript:void(0)">
+													<span>36D/60F</span>
+													<i></i>
+												</a>
+											</li>
+											<li class="tm-li">
+												<a href="javascript:void(0)">
+													<span>36D/60F</span>
+													<i></i>
+												</a>
+											</li>
+											<li class="tm-li">
+												<a href="javascript:void(0)">
+													<span>36D/60F</span>
+													<i></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="magb clearfix">
+									<div class="pull-left" style="line-height: 30px;">等级：&nbsp;</div>
+									<div class="pull-left">
+										<ul class="tm-clear">
+											<li class="tm-li">
+												<a href="javascript:void(0)">
+													<span>AAA</span>
+													<i></i>
+												</a>
+											</li>
+											<li class="tm-li">
+												<a href="javascript:void(0)">
+													<span>AAA</span>
+													<i></i>
+												</a>
+											</li>
+											<li class="tm-li">
+												<a href="javascript:void(0)">
+													<span>AA</span>
+													<i></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="magb clearfix">
+									<div class="pull-left" style="line-height: 30px;">数量：&nbsp;</div>
+									<div class="pull-left">
+										<table>
+											<tr>
+												<td onclick="jian()" style="width:30px;border-right: 1px solid #e2e2e2;cursor: pointer;">-</td>
+												<td><input onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" value="1" type="text" id="num" style="width: 60px;border: none;text-align: center;"></td>
+												<td onclick="jia()" style="width:30px; border-left: 1px solid #e2e2e2;cursor: pointer;">+</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div>
+								库存量：89大箱
+							</div>
+						</div>
+						<div class="ybh_img_btn clearfix">
+							<a class="ybh_detail_a2">立即订购</a>
+							<a class="ybh_detail_a1 btnCart">加入购物车</a>
+							<div id="flyItem" class="fly_item"><img src="images/shopfei.jpg" width="40" height="40"></div>
+						</div>
+					</div>
+				</div>
+				<div id="tab">
+					<ul class="nav nav-tabs" role="tablist">
+					  	<li role="presentation" class="active"><a href="#one" role="tab" data-toggle="tab">宝贝详情</a></li>
+					  	<li role="presentation"><a href="#two" role="tab" data-toggle="tab">评价详情</a></li>
+					  	<li role="presentation"><a href="#three" role="tab" data-toggle="tab">成交记录</a></li>
+					  	<li role="presentation"><a href="#four" role="tab" data-toggle="tab">保障</a></li>
+					  	<li role="presentation"><a href="#five" role="tab" data-toggle="tab">评价详情</a></li>
+					</ul>
+					<div class="tab-content">
+					  	<div role="tabpanel" class="tab-pane active" id="one">
+					  		<div class="tab_box">
+						<div>
+							<div class="goods-tongleichanping div-chanpingmiaoshu">
+								<div class="supply-sj-ad-title1 jzcg-cpms">
+									<div style="padding:10px 0 15px 0;" class="obj-content">
+										<table>
+											<tbody>
+												<tr>
+													<td class="de-feature">产品类型：</td>
+													<td class="de-value">涤纶</td>
+													<td class="de-feature">生产厂家：</td>
+													<td class="de-value">恒力化纤</td>
+													<td class="de-feature">品名规格：</td>
+													<td class="de-value">FDY超有光 36D/60F</td>
+												</tr>
+												<tr>
+													<td class="de-feature">件重：</td>
+													<td class="de-value">50公斤</td>
+													<td class="de-feature">等级：</td>
+													<td class="de-value">AAA</td>
+													<td class="de-feature">&nbsp;</td>
+													<td class="de-value">&nbsp;</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div style="margin-bottom: 10px;">
+										该商品参与了公益宝贝计划，卖家承诺每笔成交将为春晖妈妈守护孤儿捐赠1.0元。善款用途简介：为了让孤儿不再孤单，春晖博爱与福利院合作，将福利院保育人员和有意投身福利事业的当地妇女培训成为专职专业的“春晖妈妈”，给孤儿最最需要的亲生妈...
+									</div>
+									<div style="border: 1px solid #eee;padding: 15px;">
+										<div><img src="images/huabu.jpg" width="970" height="400" style="margin-bottom: 20px;"></div>
+										<div><img src="images/yuanbu.jpg" width="970" height="400" style="margin-bottom: 20px;"></div>
+									</div>
+
+								</div>
+								<div class="supply-sj-ad-hr1"></div>
+								<div class="jzcg-shangjia">
+									<br>
+								</div>
+							</div>
+						</div>
+					</div>
+					  	</div>
+					  	<div role="tabpanel" class="tab-pane" id="two">...</div>
+					 	<div role="tabpanel" class="tab-pane" id="three">...</div>
+					  	<div role="tabpanel" class="tab-pane" id="four">...</div>
+					  	<div role="tabpanel" class="tab-pane" id="five">...</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="foot-box-all">
+			<div class="foot-box-content">
+				<div class="foot-box-img">
+					<img src="images/bottom-logo.png">
+				</div>
+				<div class="foot-box">
+					<dl>
+						<dt>交易相关</dt>
+						<dd><a href="">如何发布货源</a></dd>
+						<dd><a href="">如何买货</a></dd>
+					</dl>
+					<dl>
+						<dt>关于我们</dt>
+						<dd><a href="account-help-pingtai.html">平台简介</a></dd>
+						<dd><a href="account-help-lianxi.html">联系我们</a></dd>
+						<dd><a href="">荣誉资质</a></dd>
+						<dd><a href="">大事记</a></dd>
+					</dl>
+					<dl>
+						<dt>交易规则</dt>
+						<dd><a href="account-guize-guapai.html">挂牌交易规则</a></dd>
+						<dd><a href="account-guize-dingdan.html">订单交易规则</a></dd>				
+					</dl>
+					<dl>
+						<dt>帮助中心</dt>
+						<dd><a href="account-help-question.html">常见问题</a></dd>
+						<dd><a href="account-help-jiaoyi.html">交易指南</a></dd>				
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<!--购物车-->
+		<div class="mui-mbar-tabs">
+			<div class="quick_link_mian">
+				<div class="quick_links_panel">
+					<div id="quick_links" class="quick_links">
+						<li id="shopCart">
+							<a href="#" class="message_list"><i class="message"></i>
+								<div class="span">购物车</div><span class="cart_num">0</span></a>
+						</li>
+						<!--<li>
+							<a href="#" class="mpbtn_wdsc"><i class="wdsc"></i></a>
+							<div class="mp_tooltip">我的收藏<i class="icon_arrow_right_black"></i></div>
+						</li>-->
+					</div>
+					<div class="quick_toggle">
+						<li>
+							<a href="#"><i class="kfzx"></i></a>
+							<div class="mp_tooltip">客服中心<i class="icon_arrow_right_black"></i></div>
+						</li>
+						<li>
+							<a href="#none"><i class="mpbtn_qrcode"></i></a>
+							<div class="mp_qrcode" style="display:none;"><img src="images/weixin_code_145.png" width="148" height="175" /><i class="icon_arrow_white"></i></div>
+						</li>
+						<li>
+							<a href="#top" class="return_top"><i class="top"></i></a>
+						</li>
+					</div>
+				</div>
+				<div id="quick_links_pop" class="quick_links_pop"></div>
+			</div>
+		</div>
+		<!--购物车-->
+
+		<footer>
+			<div class="link-all">
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+			</div>
+			<p>苏ICP备14006591号-4 © 2016 苏州千里眼服务有限公司 版权所有</p>
+			<div class="link-img">
+				<a><img src="images/link1.png"></a>
+				<a><img src="images/link2.png"></a>
+				<a><img src="images/link3.png"></a>
+				<a><img src="images/link4.png"></a>
+			</div>
+		</footer>
+	</body>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!--bootstrapJS-->
+	<script type="text/javascript" src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	<!--购物车的js-->
+	<script type="text/javascript" src="js/quick_links.js"></script>
+	<!--购物车的js-->
+	<script type="text/javascript" src="js/parabola.js"></script>
+	<!--购物车的js-->
+	<script type="text/javascript" src="js/shop-car-common.js"></script>
+	<!--banner的js-->
+	<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+	<!--页面滚动出现的js-->
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<!--动态滚动-->
+	<script type="text/javascript" src="js/dongtai-scroll.js"></script>
+	<!--首页的JS-->
+	<script type="text/javascript" src="js/index-js.js"></script>
+	<!--放大镜的js-->
+	<script type="text/javascript" src="js/jquery.imagezoom.min.js"></script>
+	<!--购物车动画-->
+	<script type="text/javascript" src="js/supermarket.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".jqzoom").imagezoom();
+			$("#thumblist li a").click(function() {
+				$(this).parents("li").addClass("tb-selected").siblings().removeClass("tb-selected");
+				$(".jqzoom").attr('src', $(this).find("img").attr("mid"));
+				$(".jqzoom").attr('rel', $(this).find("img").attr("big"));
+			});
+		});
+		
+		//计算器
+		function jian() {
+			var num = $('#num').val();
+			if (num < 1) {
+				alert('数量最少为1');
+			} else {
+				$('#num').val(num - 1)
+			}
+		};
+		function jia() {
+			var num = $('#num').val();
+			$('#num').val(parseInt(num) + 1);
+		}
+		
+		// 导航详细菜单的显示和隐藏
+		  $('.nav-box').on('mouseenter', function(){
+		    $(this).css('height', '45px');
+		    $(this).find('.banner-on-left').stop(false, true).animate({
+		      top: '45px',
+		      opacity: 1
+		    }, 0).show();
+		  }).on('mouseleave', function(){
+		    $(this).removeAttr('style');
+		    $(this).find('.banner-on-left').stop(false, true).animate({
+		      top: '-45px',
+		      opacity: 0
+		    }, 0).hide();
+		  });
+		
+		$(".list-details").hide()
+		$(".banner-on-left-list>li").mouseenter(function(){
+			$(this).find(".list-details").show()
+		}).mouseleave(function(){
+			$(this).find(".list-details").hide()
+		});
+		
+		function allhide(){
+			$("#selected_filter").hide();
+		};
+		
+		/*规格*/
+		$(".tm-li").click(
+			function(){
+				$($(this).siblings()).removeClass("tm-li-active");
+				$(this).addClass("tm-li-active");
+			}
+		);
+		
+		function closebor(){
+			$(".red-bor").addClass("wit-bor");
+			$(".k_PanelCloser").css("display","none");
+		}
+	</script>
+
+</html>

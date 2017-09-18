@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>纺团</title>
+		<!--我的样式-->
+		<link rel="stylesheet" href="css/index-style.css" />
+		<!--bootstrap样式表-->
+		<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css" />	
+		<!--门户购物车-->
+		<link rel="stylesheet" href="css/shop-car.css" />	
+		<!--banner的样式-->
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<!--animate-->
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<!--fileinput css-->
+		<link rel="stylesheet" href="css/fileinput.css" />	
+		<!--日历-->
+		<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
+		<!--select优化插件-->
+		<link rel="stylesheet" href="css/bootstrap-select.css" />
+		<!--字体图标-->
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<!--layer弹出插件-->
+		<link rel="stylesheet" href="layer/skin/layer.css" />
+	</head>
+
+	<body>
+		<div class="head-page col-lg-12">
+			<div class="container">
+				<div class="col-lg-4 pull-left head-page-left">
+					<a href="login.html">登录</a>
+					<i>|</i>
+					<a href="reg.html">注册</a>
+					<span>欢迎来到纺团网</span>
+				</div>
+				<div class="col-lg-8 pull-right head-page-right text-right">
+					 <a href="front-page/index-page.html">我的纺团网</a>
+			   <i>|</i>			 
+			   <a href="account-help-pingtai.html">关于我们</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="head-box col-lg-12">
+				<div class="head-box-left col-lg-4 margin-left-15">
+					<img src="images/logo.jpg">
+				</div>
+				<div class="head-box-right col-lg-8 ">
+					<div class="search-box">
+						<!--<div class="search-box-change">
+							<i class="search-active">现货</i><i>求购</i>
+						</div>-->
+						<div class="search-input-box col-lg-12 margin-left-15 margin-right-15">
+							<div class="col-lg-12  margin-left-15">
+								<div class="search-input clearfix" style="padding: 0px;width: 500px;height:42px;line-height: 42px;">		
+									<li class="pull-left dropdown"><a href="#">化纤超市&nbsp;</a>
+										<ol class="menulist">
+											<li class="list null"></li>
+											<li class="list"><a href="#">织造超市</a></li>
+											<li class="list"><a href="#">闲置设备</a></li>
+											<li class="list"><a href="#">闲置厂房</a></li>
+										</ol>
+									</li>
+									<div class="pull-right"><button class="search-btn" style="width: 80px;">搜索</button></div>
+									<div class="pull-right"><input type="text" placeholder="请输入关键字" style="border: none;width: 300px;background: transparent;padding: 0px;"></div>
+									<div class="pull-right"><span class="glyphicon glyphicon-search" style="color: #ccc;"></span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--导航-->
+		<div class="nav mt20">
+			<div class="nav-all">
+				<div class="nav-box pull-left">
+					全部分类
+					<i class="nav-arrow"></i>
+					<div class="next-nav">
+						<dl>
+							<dt>分类1号</dt>
+							<dd>分类1号的内容</dd>
+							<dd>分类1号的内容</dd>
+							<dd>分类1号的内容</dd>
+							<dd>分类1号的内容</dd>
+							<dd>分类1号的内容</dd>
+						</dl>
+						<dl>
+							<dt>分类1号</dt>
+							<dd>分类1号的内容</dd>
+							<dd>分类1号的内容</dd>
+							<dd>分类1号的内容</dd>
+							<dd>分类1号的内容</dd>
+							<dd>分类1号的内容</dd>
+						</dl>
+						<dl>
+							<dt>分类1号</dt>
+							<dd>分类1号的内容</dd>
+							<dd>分类1号的内容</dd>
+							<dd>分类1号的内容</dd>
+							<dd>分类1号的内容</dd>
+							<dd>分类1号的内容</dd>
+						</dl>
+					</div>
+				</div>
+				<ul class="pull-right nav-right">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="supermarket.html">现货超市</a>
+					</li>
+					<li class="active_16">
+						<a href="shops.html">商铺</a>
+					</li>
+					<li>
+						<a href="logistics-service.html">物流服务</a>
+					</li>
+					<li>
+						<a href="xianzhi-shebei.html">闲置设备</a>
+					</li>
+					<li>
+						<a href="xianzhi-changfang.html">闲置厂房</a>
+					</li>
+					<li>
+						<a href="">在线预订</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+        
+        <div class="shops-banner mb20">
+        	<img class="img-responsive" src="images/shops-banner.jpg">
+        	<div class="board" style="" id="loginCon">
+        		<div class="board_c">
+        			<!--<h4>用户登录</h4>-->
+        			<form id="loginForm">
+        				<div class="tan-1">
+	        				<div class="loginput_box">
+	        					<span class="glyphicon glyphicon-bell" style="color: #dd254d;font-size:18px ;"></span>&nbsp;&nbsp;立刻开通属于您自己的个性化商铺！！
+	        				</div>             
+        					<p><button class="login_btn" type="button" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-tasks"></span>&nbsp;立即申请</button></p>
+        				</div>
+        				<!--<div class="tan-2">
+	        				<div class="loginput_box">
+	        					<span class="glyphicon glyphicon-bell" style="color: #dd254d;font-size:18px ;"></span>&nbsp;&nbsp;商铺开通已申请，平台正在审核中！！
+	        				</div>             
+        				</div>-->
+        				<!--<div class="tan-3">
+	        				<div class="loginput_box">
+	        					<span class="glyphicon glyphicon-bell" style="color: #dd254d;font-size:18px ;"></span>&nbsp;&nbsp;商铺开通申请已审核通过，点击立刻查看我的商铺！！
+	        				</div>
+	        				<a href="javascript:viod(0)"><button class="login_btn" type="button"><span class="glyphicon glyphicon-tasks"></span>&nbsp;前往商铺</button></a>
+        				</div>-->
+        			</form> 
+        		</div>
+        	</div>
+        </div>
+        
+        <!--身体部分-->
+        <div class="shops-box-all">
+        	<div class="shops-box-left">
+        		<div class="shops-search">
+        			<div class="shops-search-box2 pull-left col-lg-2 padding-right-0">
+        				<select class="selectpicker show-tick form-control">
+								<option>全部</option>
+								<option>化纤</option>
+								<option>织造</option>
+						</select>
+        			</div>
+        			<div class="shops-search-box1 pull-left col-lg-4 padding-left-0 padding-right-0">
+        			 <div class="form-group">
+					    <label  class="col-sm-4 control-label mt8">商家名称</label>
+					    <div class="col-sm-8">
+					      <input type="text" class="form-control"  placeholder="商铺名称">
+					    </div>
+					  </div>
+        			</div>
+        			<div class="shops-search-box2 pull-left col-lg-4 padding-left-0 padding-right-0">
+        			 <div class="form-group">
+					    <label  class="col-sm-3 control-label mt8">地区</label>
+					    <div class="col-sm-9">
+					       <select id="city" class="selectpicker show-tick form-control">
+									<option>上海市</option>
+									<option>上海市</option>
+							</select>
+					    </div>
+					  </div>
+        			</div>
+        			<div class="shops-search-box3 pull-left col-lg-2 padding-left-0 padding-right-0">
+        				<a class="btn-a ml10" href="">查询</a>
+        			</div>
+        		</div>
+        		
+        		<div class="shops-list ">
+        			<div class="shops-box-word ">
+        				<a href="shops-content.html">
+        				<div class="shops-box-company">
+        					<img src="images/adron_1.jpg">
+        				</div>
+        				<h1 class="company-h1">江苏恒力化纤股份有限公司</h1>
+        				<p><b>主营：</b><br>细旦超细旦半消光、超亮光涤纶长丝以及各类功能性差别化纤维</p>
+        				<p><b>公司地址：</b><br>江苏省苏州市</p>
+        				</a>
+        			</div>
+        			<div class="shops-box-word ">
+        				<a href="">
+        				<div class="shops-box-company">
+        					<img src="images/adron_1.jpg">
+        				</div>
+        				<h1 class="company-h1">江苏恒力化纤股份有限公司</h1>
+        				<p><b>主营：</b><br>细旦超细旦半消光、超亮光涤纶长丝以及各类功能性差别化纤维</p>
+        				<p><b>公司地址：</b><br>江苏省苏州市</p>
+        				</a>
+        			</div>
+        			<div class="shops-box-word">
+        				<a href="">
+        				<div class="shops-box-company">
+        					<img src="images/adron_1.jpg">
+        				</div>
+        				<h1 class="company-h1">江苏恒力化纤股份有限公司</h1>
+        				<p><b>主营：</b><br>细旦超细旦半消光、超亮光涤纶长丝以及各类功能性差别化纤维</p>
+        				<p><b>公司地址：</b><br>江苏省苏州市</p>
+        				</a>
+        			</div>
+        			<div class="shops-box-word">
+        				<a href="">
+        				<div class="shops-box-company">
+        					<img src="images/adron_1.jpg">
+        				</div>
+        				<h1 class="company-h1">江苏恒力化纤股份有限公司</h1>
+        				<p><b>主营：</b><br>细旦超细旦半消光、超亮光涤纶长丝以及各类功能性差别化纤维</p>
+        				<p><b>公司地址：</b><br>江苏省苏州市</p>
+        				</a>
+        			</div>
+        			<div class="shops-box-word">
+        				<a href="">
+        				<div class="shops-box-company">
+        					<img src="images/adron_1.jpg">
+        				</div>
+        				<h1 class="company-h1">江苏恒力化纤股份有限公司</h1>
+        				<p><b>主营：</b><br>细旦超细旦半消光、超亮光涤纶长丝以及各类功能性差别化纤维</p>
+        				<p><b>公司地址：</b><br>江苏省苏州市</p>
+        				</a>
+        			</div>
+        		</div>
+        		
+        		<div class="page-padding">
+        		<!--分页-->
+			<div class="pagebar">
+				<div class="total pull-left">
+					共665条记录，每页最多显示10条
+				</div>
+				<div class="total_right pull-right">
+					<ul class="total_ul pull-left">
+						<span class="first_span pull-left"><a>第一页</a></span>
+						<li>
+							<a href="">1</a>
+						</li>
+						<li>
+							<a href="">2</a>
+						</li>
+						<li>
+							<a href="">3</a>
+						</li>
+						<li>
+							<a href="">4</a>
+						</li>
+						<li>
+							<a href="">5</a>
+						</li>
+						<span class="last_span pull-left"><a>最后一页</a></span>
+					</ul>
+					<span class="total_span pull-left">共67页</span>
+					<span class="jump_span pull-left">跳转<input type="text">页</span>
+					<a class="block pull-left jump-btn">跳转</a>
+				</div>
+			</div>
+			<!--分页-->
+			</div>
+        	</div>
+        	<div class="shops-box-right">
+        		<h1>推荐商家</h1>
+        		<ul class="shops-box-ul">
+        			<li>
+        				<a href="">
+        				<span class="shops-span-left"><img src="images/adron_1.jpg"></span>
+        				<span class="shops-span-right">
+        					<h2>江苏恒力化纤股份有限公司</h2>
+        					<p><b>主营：</b><br>
+        						细旦超细旦半消光、超亮光涤纶长丝以及各类功能性差别化纤维
+        					</p>
+        				</span>
+        				</a>
+        			</li>
+        			<li>
+        				<a href="">
+        				<span class="shops-span-left"><img src="images/adron_1.jpg"></span>
+        				<span class="shops-span-right">
+        					<h2>江苏恒力化纤股份有限公司</h2>
+        					<p><b>主营：</b><br>
+        						细旦超细旦半消光、超亮光涤纶长丝以及各类功能性差别化纤维
+        					</p>
+        				</span>
+        				</a>
+        			</li>
+        			<li>
+        				<a href="">
+        				<span class="shops-span-left"><img src="images/adron_1.jpg"></span>
+        				<span class="shops-span-right">
+        					<h2>江苏恒力化纤股份有限公司</h2>
+        					<p><b>主营：</b><br>
+        						细旦超细旦半消光、超亮光涤纶长丝以及各类功能性差别化纤维
+        					</p>
+        				</span>
+        				</a>
+        			</li>
+        			
+        		</ul>
+        	</div>
+        </div>
+		
+
+		<div class="foot-box-all">
+		 <div class="foot-box-content">
+		<div class="foot-box-img">
+			<img src="images/bottom-logo.png">
+		</div>
+		<div class="foot-box">
+			<dl>
+				<dt>交易相关</dt>
+				<dd><a href="">如何发布货源</a></dd>
+				<dd><a href="">如何买货</a></dd>
+			</dl>
+			<dl>
+				<dt>关于我们</dt>
+				<dd><a href="account-help-pingtai.html">平台简介</a></dd>
+				<dd><a href="account-help-lianxi.html">联系我们</a></dd>
+				<dd><a href="">荣誉资质</a></dd>
+				<dd><a href="">大事记</a></dd>
+			</dl>
+			<dl>
+				<dt>交易规则</dt>
+				<dd><a href="account-guize-guapai.html">挂牌交易规则</a></dd>
+				<dd><a href="account-guize-dingdan.html">订单交易规则</a></dd>				
+			</dl>
+			<dl>
+				<dt>帮助中心</dt>
+				<dd><a href="account-help-question.html">常见问题</a></dd>
+				<dd><a href="account-help-jiaoyi.html">交易指南</a></dd>				
+			</dl>
+		</div>
+		</div>
+	</div>
+
+		<footer>
+			<div class="link-all">
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+				<a href="">网商银行</a><i>|</i>
+			</div>
+			<p>苏ICP备14006591号-4 © 2016 苏州千里眼服务有限公司 版权所有</p>
+			<div class="link-img">
+				<a><img src="images/link1.png"></a>
+				<a><img src="images/link2.png"></a>
+				<a><img src="images/link3.png"></a>
+				<a><img src="images/link4.png"></a>
+			</div>
+		</footer>
+		
+		<!--购物车-->
+		<div class="mui-mbar-tabs">
+			<div class="quick_link_mian">
+				<div class="quick_links_panel">
+					<div id="quick_links" class="quick_links">			
+						<li id="shopCart">
+							<a href="#" class="message_list"><i class="message"></i>
+								<div class="span">购物车</div><span class="cart_num">0</span></a>
+						</li>		
+						<!--<li>
+							<a href="#" class="mpbtn_wdsc"><i class="wdsc"></i></a>
+							<div class="mp_tooltip">我的收藏<i class="icon_arrow_right_black"></i></div>
+						</li>-->
+					</div>
+					<div class="quick_toggle">
+						<li>
+							<a href="#"><i class="kfzx"></i></a>
+							<div class="mp_tooltip">客服中心<i class="icon_arrow_right_black"></i></div>
+						</li>
+						<li>
+							<a href="#none"><i class="mpbtn_qrcode"></i></a>
+							<div class="mp_qrcode" style="display:none;"><img src="images/weixin_code_145.png" width="148" height="175" /><i class="icon_arrow_white"></i></div>
+						</li>
+						<li>
+							<a href="#top" class="return_top"><i class="top"></i></a>
+						</li>
+					</div>
+				</div>		
+				<div id="quick_links_pop" class="quick_links_pop"></div>
+			</div>
+		</div>
+		<!--购物车-->
+		<!--申请内容-->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  	<div class="modal-dialog">
+			    <div class="modal-content">
+				    <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				        <h4 class="modal-title" id="myModalLabel">请输入开通商铺申请</h4>
+				    </div>
+			     	<div class="modal-body">
+			        <textarea class="form-control" rows="3"></textarea>
+			      	</div>
+			      	<div class="modal-footer">
+				        <button type="button" class="btn btn-primary">提交</button>
+			      	</div>
+			    </div>
+		  	</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!--bootstrapJS-->
+	<script type="text/javascript" src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>	
+	<!--购物车的js-->
+	<script type="text/javascript" src="js/quick_links.js"></script>
+	<!--购物车的js-->
+	<script type="text/javascript" src="js/parabola.js"></script>
+	<!--购物车的js-->
+	<script type="text/javascript" src="js/shop-car-common.js"></script>
+	<!--banner的js-->
+	<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+	<!--页面滚动出现的js-->
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<!--动态滚动-->
+	<script type="text/javascript" src="js/dongtai-scroll.js"></script>	
+	<!--select优化插件-->
+	<script type="text/javascript" src="js/bootstrap-select.js"></script>
+	<!--首页的JS-->
+	<script type="text/javascript" src="js/index-js.js"></script>
+	<script>
+		// 首页导航下拉菜单
+		  /*$(' .dropdown').on('mouseenter', function(){
+		    $(this).css('height', '40px');
+		    $(this).find('ol').stop(false, true).animate({
+		      top: '40px',
+		      opacity: 1
+		    }, 200).show();
+		  }).on('mouseleave', function(){
+		    $(this).removeAttr('style');
+		    $(this).find('ol').stop(false, true).animate({
+		      top: '40px',
+		      opacity: 0
+		    }, 200, function(){
+		      $(this).removeAttr('style');
+		    });
+		  });*/
+		$(' .dropdown').on('mouseenter', function(){
+		    $(".menulist").fadeIn("fast");
+		}).on('mouseleave', function(){
+		    $(".menulist").fadeOut("fast");
+		});
+	</script>
+</html>
